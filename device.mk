@@ -27,12 +27,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.lito
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.lito \
-    libgptutils \
-    libz \
-    libcutils
-
 PRODUCT_PACKAGES += \
     otapreopt_script \
     cppreopts.sh \
