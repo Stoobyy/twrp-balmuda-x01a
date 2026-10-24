@@ -55,7 +55,7 @@ jobs:
         run: |
           mkdir -p ~/twrp && cd ~/twrp
           ~/bin/repo init --depth=1 -u "$MANIFEST" -b "$BRANCH"
-          ~/bin/repo sync -c --depth=1 --no-tags -j4 --force-sync
+          ~/bin/repo sync -c --no-tags -j4 --force-sync
           df -h /
 
       - name: Copy device tree
