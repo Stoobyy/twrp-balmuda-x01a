@@ -120,6 +120,9 @@ TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
 TW_INCLUDE_FASTBOOTD := true
 RECOVERY_SDCARD_ON_DATA := true
+# The mtp,adb gadget fails to start on this kernel (configfs-gadget: failed to start g1: -22);
+# adb alone works, so keep MTP out of the default USB config.
+TW_EXCLUDE_MTP := true
 # Backlight (stock recovery writes panel0-backlight; max value is unverified)
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_DEFAULT_BRIGHTNESS := 200
