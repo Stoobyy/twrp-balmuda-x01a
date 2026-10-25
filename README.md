@@ -1,4 +1,4 @@
-# TWRP device tree: BALMUDA Phone X01A (KYOCERA, lito)
+# TWRP device tree: BALMUDA Phone X01A/A101BM (KYOCERA, lito)
 
 Device tree for building TWRP (twrp-12.1) for the Balmuda Phone X01A, generated with twrpdtgen
 from the stock X01A 1.280MI.0648.a recovery image and then corrected by hand.
